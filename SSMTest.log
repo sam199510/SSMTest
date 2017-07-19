@@ -1,0 +1,253 @@
+[INFO][main][2017-07-18 20:13:37][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-18 20:13:37][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Jul 18 20:13:37 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-18 20:13:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-18 20:13:37][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-18 20:13:38][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Tue Jul 18 20:13:37 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 827 ms
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-18 20:13:38][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Jul 18 20:13:38 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-18 20:13:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-18 20:13:38][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:13:38][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 317 ms
+[INFO][main][2017-07-18 20:14:45][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-18 20:14:45][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Jul 18 20:14:45 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-18 20:14:45][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-18 20:14:45][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-18 20:14:46][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Tue Jul 18 20:14:45 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 784 ms
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-18 20:14:46][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Jul 18 20:14:46 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-18 20:14:46][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-18 20:14:46][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:14:46][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 314 ms
+[INFO][main][2017-07-18 20:36:46][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-18 20:36:46][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Jul 18 20:36:46 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-18 20:36:46][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-18 20:36:46][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-18 20:36:47][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Tue Jul 18 20:36:46 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 778 ms
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-18 20:36:47][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Jul 18 20:36:47 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-18 20:36:47][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-18 20:36:47][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-18 20:36:47][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 301 ms
+[INFO][main][2017-07-18 21:04:59][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-18 21:04:59][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Tue Jul 18 21:04:59 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-18 21:04:59][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-18 21:04:59][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-18 21:05:00][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Tue Jul 18 21:04:59 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 793 ms
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-18 21:05:00][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Tue Jul 18 21:05:00 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-18 21:05:00][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-18 21:05:00][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-18 21:05:00][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 314 ms
+[INFO][main][2017-07-19 09:19:12][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-19 09:19:12][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Jul 19 09:19:12 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-19 09:19:12][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-19 09:19:12][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 09:19:13][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Wed Jul 19 09:19:12 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 795 ms
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-19 09:19:13][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 19 09:19:13 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-19 09:19:13][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-19 09:19:13][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 09:19:13][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 332 ms
+[WARN][1571720539@qtp-449105069-2][2017-07-19 09:20:46][org.springframework.web.servlet.DispatcherServlet] - No mapping found for HTTP request with URI [/deleteUser.html] in DispatcherServlet with name 'SpringMVC'
+[WARN][1571720539@qtp-449105069-2][2017-07-19 09:21:53][org.springframework.web.servlet.DispatcherServlet] - No mapping found for HTTP request with URI [/deleteUser.html] in DispatcherServlet with name 'SpringMVC'
+[WARN][1571720539@qtp-449105069-2][2017-07-19 09:21:57][org.springframework.web.servlet.DispatcherServlet] - No mapping found for HTTP request with URI [/deleteUser.html] in DispatcherServlet with name 'SpringMVC'
+[WARN][1571720539@qtp-449105069-2][2017-07-19 09:22:00][org.springframework.web.servlet.DispatcherServlet] - No mapping found for HTTP request with URI [/deleteUser.html] in DispatcherServlet with name 'SpringMVC'
+[WARN][1571720539@qtp-449105069-2][2017-07-19 09:22:02][org.springframework.web.servlet.DispatcherServlet] - No mapping found for HTTP request with URI [/deleteUser.html] in DispatcherServlet with name 'SpringMVC'
+[INFO][main][2017-07-19 10:05:18][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-19 10:05:18][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Jul 19 10:05:18 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-19 10:05:18][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-19 10:05:18][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:05:19][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Wed Jul 19 10:05:18 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 809 ms
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-19 10:05:19][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 19 10:05:19 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-19 10:05:19][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-19 10:05:19][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:05:19][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 320 ms
+[INFO][main][2017-07-19 10:39:05][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-19 10:39:05][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Jul 19 10:39:05 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-19 10:39:05][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-19 10:39:05][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:39:05][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Wed Jul 19 10:39:05 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-19 10:39:05][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:39:05][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 764 ms
+[INFO][main][2017-07-19 10:39:05][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-19 10:39:05][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 19 10:39:05 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-19 10:39:05][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-19 10:39:05][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:39:06][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 331 ms
+[INFO][main][2017-07-19 10:42:17][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-19 10:42:17][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Jul 19 10:42:17 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-19 10:42:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-19 10:42:17][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:42:17][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Wed Jul 19 10:42:17 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-19 10:42:17][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:42:17][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 823 ms
+[INFO][main][2017-07-19 10:42:17][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-19 10:42:17][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 19 10:42:17 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-19 10:42:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-19 10:42:18][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:42:18][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 314 ms
+[INFO][main][2017-07-19 10:45:55][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-19 10:45:55][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Jul 19 10:45:55 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-19 10:45:55][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-19 10:45:55][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:45:55][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Wed Jul 19 10:45:55 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-19 10:45:55][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:45:55][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 780 ms
+[INFO][main][2017-07-19 10:45:55][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-19 10:45:55][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 19 10:45:55 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-19 10:45:55][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-19 10:45:55][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:45:56][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 292 ms
+[INFO][main][2017-07-19 10:55:28][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-19 10:55:28][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Jul 19 10:55:28 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-19 10:55:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-19 10:55:28][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:55:29][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Wed Jul 19 10:55:28 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 831 ms
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-19 10:55:29][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 19 10:55:29 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-19 10:55:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-19 10:55:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/deleteUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/deleteUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:55:29][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 315 ms
+[INFO][main][2017-07-19 10:59:57][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+[INFO][main][2017-07-19 10:59:57][org.springframework.context.support.AbstractApplicationContext] - Refreshing Root WebApplicationContext: startup date [Wed Jul 19 10:59:57 CST 2017]; root of context hierarchy
+[INFO][main][2017-07-19 10:59:57][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO][main][2017-07-19 10:59:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:59:58][org.springframework.ui.freemarker.SpringTemplateLoader] - SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Wed Jul 19 10:59:57 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 821 ms
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization started
+[INFO][main][2017-07-19 10:59:58][org.springframework.context.support.AbstractApplicationContext] - Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jul 19 10:59:58 CST 2017]; parent: Root WebApplicationContext
+[INFO][main][2017-07-19 10:59:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO][main][2017-07-19 10:59:58][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/index/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/showAllUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/checkUserName/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/registUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/deleteUser] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.handler.AbstractUrlHandlerMapping] - Mapped URL path [/deleteUser/] onto handler 'SSMController'
+[INFO][main][2017-07-19 10:59:58][org.springframework.web.servlet.FrameworkServlet] - FrameworkServlet 'SpringMVC': initialization completed in 311 ms

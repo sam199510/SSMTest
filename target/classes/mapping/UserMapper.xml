@@ -95,4 +95,10 @@
     SELECT * FROM user
   </select>
 
+  <select id="checkUserName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    SELECT *
+    FROM user
+    WHERE username = #{username, jdbcType=VARCHAR}
+  </select>
+
 </mapper>

@@ -16,4 +16,13 @@ public interface UserService {
     //搜索所有用户方法
     List<User> getAllUser();
 
+    //检查用户名是否存在的方法
+    List<User> checkUserName(String username);
+
+    //注册用户方法
+    void registUser(User user);
+
+    //删除用户方法
+    void deleteUser(Integer userId);
+
 }

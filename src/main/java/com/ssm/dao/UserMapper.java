@@ -22,4 +22,7 @@ public interface UserMapper {
 
     //搜索所有用户的方法，在UserMapper.xml中可以找到
     List<User> selectAllUser();
+
+    //检查用户名是否存在的方法
+    List<User> checkUserName(String username);
 }

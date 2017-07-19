@@ -1,0 +1,13 @@
+com/ssm/model/Book.class
+com/ssm/model/User.class
+com/ssm/dao/IndentMapper.class
+com/ssm/dao/CollectionMapper.class
+com/ssm/service/UserService.class
+com/ssm/controller/SSMController.class
+com/ssm/dao/CommentMapper.class
+com/ssm/dao/BookMapper.class
+com/ssm/model/Collection.class
+com/ssm/model/Indent.class
+com/ssm/service/impl/UserServiceImpl.class
+com/ssm/dao/UserMapper.class
+com/ssm/model/Comment.class

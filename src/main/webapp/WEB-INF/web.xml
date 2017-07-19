@@ -19,6 +19,11 @@
     <param-value>classpath:log4j.properties</param-value>
   </context-param>
 
+  <context-param>
+    <param-name>log4jRefreshInterval</param-name>
+    <param-value>60000</param-value>
+  </context-param>
+
   <!-- 编码过滤器 -->
   <filter>
     <filter-name>encodingFilter</filter-name>
@@ -28,9 +33,20 @@
       <param-value>UTF-8</param-value>
     </init-param>
   </filter>
+
   <filter-mapping>
     <filter-name>encodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>encodingFilter</filter-name>
+    <url-pattern>*.html</url-pattern>
+  </filter-mapping>
+
+  <filter-mapping>
+    <filter-name>encodingFilter</filter-name>
+    <url-pattern>*.json</url-pattern>
   </filter-mapping>
 
   <!-- spring监听器 -->
@@ -55,10 +71,16 @@
     <load-on-startup>1</load-on-startup>
     <async-supported>true</async-supported>
   </servlet>
+
   <servlet-mapping>
     <servlet-name>SpringMVC</servlet-name>
     <!-- 此处也可以配置成 *.do 形式 -->
     <url-pattern>*.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>SpringMVC</servlet-name>
+    <url-pattern>*.json</url-pattern>
   </servlet-mapping>
 
   <!--初始接口-->

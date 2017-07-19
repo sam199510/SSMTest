@@ -27,8 +27,27 @@ public class UserServiceImpl implements UserService {
     }
 
     //搜索所有用户方法
+    @Override
     public List<User> getAllUser(){
         //调用userMapper中搜索所有用户的方法
         return this.userMapper.selectAllUser();
+    }
+
+    //检查用户名是否存在的方法
+    @Override
+    public List<User> checkUserName(String username){
+        return this.userMapper.checkUserName(username);
+    }
+
+    //注册用户方法
+    @Override
+    public void registUser(User user) {
+        this.userMapper.insert(user);
+    }
+
+    //删除用户方法
+    @Override
+    public void deleteUser(Integer userId) {
+        this.userMapper.deleteByPrimaryKey(userId);
     }
 }
