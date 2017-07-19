@@ -25,4 +25,10 @@ public interface UserMapper {
 
     //检查用户名是否存在的方法
     List<User> checkUserName(String username);
+
+    //检查旧密码是否正确的方法
+    List<User> checkOldPassword(User user);
+
+    //模糊查询用户
+    List<User> selectByUserName(User user);
 }

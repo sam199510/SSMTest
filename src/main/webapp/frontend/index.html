@@ -149,11 +149,31 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var oSearchForm = $("#searchForm");
+
+            var oSearchUserName = $("#searchUserName");
+            var oSearchUserNameInfo = $(".searchUserNamaInfo");
+
+            var oSearchBtn = $("#searchBtn");
+            var oSearchResetBtn = $("#searchResetBtn");
+
+            oSearchBtn.click(function () {
+                if (oSearchUserName.val() == "") {
+                    oSearchUserNameInfo.empty();
+                    oSearchUserNameInfo.text("搜索内容不能为空");
+                } else {
+                    oSearchUserNameInfo.empty();
+                    oSearchUserNameInfo.text("√");
+                    oSearchForm.submit();
+                }
+            });
+        });
+    </script>
 </head>
 <body>
-    HelloWorld！！！！！！！！！！！<br><br>
-
-
+    注册用户：<br>
     <form id="registForm" action="registUser.html" method="post">
         <input name="username" id="username" type="text" placeholder="请输入用户名"><div class="usernameInfo"></div><br><br>
         <input name="password" id="password" type="password" placeholder="请输入密码"><div class="passwordInfo"></div><br><br>
@@ -162,38 +182,50 @@
         <input name="address" id="address" type="text" placeholder="请输入住址"><div class="addressInfo"></div><br><br>
         <input id="registBtn" type="button" value="注册">&nbsp;&nbsp;<input id="resetBtn" type="reset" value="重置">
     </form>
-
-
-    <br><br><br><br>
-
-
-    <table>
+    <br><br>
+    搜索用户：<br>
+    <form id="searchForm" action="searchUser.html" method="post">
+        <input name="username" id="searchUserName" type="text" placeholder="请输入需要搜索的用户"><div class="searchUserNamaInfo"></div><br><br>
+        <input id="searchBtn" type="button" value="搜索">&nbsp;&nbsp;<input id="searchResetBtn" type="reset" value="重置">
+    </form>
+    <br><br>
+    <a href="index.html">显示所有用户</a>
+    <br><br>
+    <table class="userTable">
         <tr>
             <th>用户名</th>
             <th>手机号</th>
             <th>住址</th>
             <th>操作</th>
         </tr>
-        <#list users as user>
+        <#if users?? && (users?size > 0) >
+            <#list users as user>
+                <tr>
+                    <td>${user.username}</td>
+                    <td>${user.mobile?c}</td>
+                    <td>${user.address}</td>
+                    <td>
+                        <a href="updateInfo.html?id=${user.id}">修改信息</a>
+                        <a href="updatePassword.html?id=${user.id}">修改密码</a>
+                        <a href="deleteUser.html?id=${user.id}">删除</a>
+                    </td>
+                </tr>
+            </#list>
+        <#else>
             <tr>
-                <td>${user.username}</td>
-                <td>${user.mobile?c}</td>
-                <td>${user.address}</td>
-                <td>
-                    <a href="updateInfo.html?id=${user.id}">修改信息</a>
-                    <a href="updatePassword.html?id=${user.id}">修改密码</a>
-                    <a href="deleteUser.html?id=${user.id}">删除</a>
-                </td>
+                <td colspan="4">没发现什么东西</td>
             </tr>
-        </#list>
+        </#if>
     </table>
-
     <br><br><br><br>
     <ul style="list-style: none;">
-        <#list users as user>
-            <li>${user.username} &nbsp; ${user.mobile?c} &nbsp; ${user.address}</li>
-        </#list>
+        <#if users?? && (users?size > 0) >
+            <#list users as user>
+                <li>${user.username} &nbsp; ${user.mobile?c} &nbsp; ${user.address}</li>
+            </#list>
+            <#else>
+                <li>没发现什么东西</li>
+        </#if>
     </ul>
-
 </body>
 </html>

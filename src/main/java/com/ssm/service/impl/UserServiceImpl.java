@@ -50,4 +50,28 @@ public class UserServiceImpl implements UserService {
     public void deleteUser(Integer userId) {
         this.userMapper.deleteByPrimaryKey(userId);
     }
+
+    //获取单个用户信息的方法
+    @Override
+    public User getUserInfo(Integer userId) {
+        return this.userMapper.selectByPrimaryKey(userId);
+    }
+
+    //修改用户信息的方法
+    @Override
+    public void updateInfo(User user) {
+        this.userMapper.updateByPrimaryKeySelective(user);
+    }
+
+    //检查旧密码的方法
+    @Override
+    public List<User> checkOldPassword(User user) {
+        return this.userMapper.checkOldPassword(user);
+    }
+
+    //模糊查询用户方法
+    @Override
+    public List<User> selectByUserName(User user) {
+        return this.userMapper.selectByUserName(user);
+    }
 }

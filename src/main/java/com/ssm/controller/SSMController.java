@@ -5,6 +5,7 @@ import com.ssm.model.User;
 import com.ssm.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -74,5 +75,69 @@ public class SSMController {
         System.out.println(id);
         this.userService.deleteUser(id);
         return "redirect:index.html";
+    }
+
+    //跳转到修改信息页面的方法
+    @RequestMapping(value = "updateInfo", method = RequestMethod.GET)
+    public ModelAndView updateInfoPage(Integer id){
+        ModelAndView modelAndView = new ModelAndView();
+        System.out.println(id);
+        modelAndView.setViewName("editUserInfo");
+        User user = this.userService.getUserInfo(id);
+        modelAndView.addObject("user",user);
+        return modelAndView;
+    }
+
+    //修改用户信息的方法
+    @RequestMapping(value = "updateInfo", method = RequestMethod.POST)
+    public String updateInfo(User user){
+        System.out.println(JSON.toJSONString(user));
+        this.userService.updateInfo(user);
+        return "redirect:index.html";
+    }
+
+    //跳转到修改密码页面的方法
+    @RequestMapping(value = "updatePassword", method = RequestMethod.GET)
+    public ModelAndView updatePasswordPage(Integer id){
+        ModelAndView modelAndView = new ModelAndView();
+        System.out.println(id);
+        modelAndView.setViewName("updatePassword");
+        User user = this.userService.getUserInfo(id);
+        modelAndView.addObject("user",user);
+        return modelAndView;
+    }
+
+    //检查旧密码的方法
+    @RequestMapping(value = "checkOldPassword", method = RequestMethod.POST)
+    @ResponseBody
+    public int checkOldPassword(Integer id, String oldPassword){
+        System.out.println("检查旧密码的方法被调用");
+        User user = new User();
+        user.setId(id);
+        user.setPassword(oldPassword);
+        return this.userService.checkOldPassword(user).size();
+    }
+
+    //修改密码方法
+    @RequestMapping(value = "updatePassword", method = RequestMethod.POST)
+    public String updatePassword(Integer id, String password){
+        User user = new User();
+        user.setId(id);
+        user.setPassword(password);
+        System.out.println("修改密码成功");
+        this.userService.updateInfo(user);
+        return "redirect:index.html";
+    }
+
+    @RequestMapping(value = "searchUser", method = RequestMethod.POST)
+    public ModelAndView searchUser(String username){
+        System.out.println("搜素用户方法北调用");
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("index");
+        User user = new User();
+        user.setUsername("%" + username + "%");
+        List<User> users = this.userService.selectByUserName(user);
+        modelAndView.addObject("users",users);
+        return modelAndView;
     }
 }

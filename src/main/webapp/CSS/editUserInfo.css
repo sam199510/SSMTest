@@ -5,27 +5,19 @@
     float: left;
 }
 
-#searchUserName{
-    width: 300px;
-    float: left;
-}
-
 #registBtn{
     width: 150px;
-    float: left;
 }
 
-#resetBtn,#searchBtn,#searchResetBtn{
+#resetBtn{
     width: 150px;
-    float: left;
+}
+
+#editBtn{
+    width: 150px;
 }
 
 .usernameInfo{
-    float: left;
-    color: red;
-}
-
-.searchUserNamaInfo{
     float: left;
     color: red;
 }

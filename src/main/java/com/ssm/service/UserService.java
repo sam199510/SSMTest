@@ -25,4 +25,15 @@ public interface UserService {
     //删除用户方法
     void deleteUser(Integer userId);
 
+    //按照id搜索用户业务方法
+    User getUserInfo(Integer userId);
+
+    //修改用户信息业务方法
+    void updateInfo(User user);
+
+    //检查旧密码的方法
+    List<User> checkOldPassword(User user);
+
+    //模糊查询用户
+    List<User> selectByUserName(User user);
 }

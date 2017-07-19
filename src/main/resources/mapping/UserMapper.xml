@@ -101,4 +101,17 @@
     WHERE username = #{username, jdbcType=VARCHAR}
   </select>
 
+  <select id="checkOldPassword" parameterType="com.ssm.model.User" resultMap="BaseResultMap">
+    SELECT *
+    FROM user
+    WHERE id = #{id,jdbcType=INTEGER} AND
+          password = #{password, jdbcType=VARCHAR}
+  </select>
+
+  <select id="selectByUserName" parameterType="com.ssm.model.User" resultMap="BaseResultMap">
+    SELECT *
+    FROM user
+    WHERE username LIKE #{username, jdbcType=VARCHAR}
+  </select>
+
 </mapper>
