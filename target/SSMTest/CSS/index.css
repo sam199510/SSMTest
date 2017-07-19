@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+#username,#password,#rePassword,#mobile,#address{
+    width: 300px;
+    float: left;
+}
+
+#searchUserName{
+    width: 300px;
+    float: left;
+}
+
+#registBtn{
+    width: 150px;
+    float: left;
+}
+
+#resetBtn,#searchBtn,#searchResetBtn{
+    width: 150px;
+    float: left;
+}
+
+.usernameInfo{
+    float: left;
+    color: red;
+}
+
+.searchUserNamaInfo{
+    float: left;
+    color: red;
+}
+
+.passwordInfo{
+    float: left;
+    color: red;
+}
+
+.rePasswordInfo{
+    float: left;
+    color: red;
+}
+
+.mobileInfo{
+    float: left;
+    color: red;
+}
+
+.addressInfo{
+    float: left;
+    color: red;
+}
+
+.userTable, .userTable tr th, .userTable tr td{
+    border: 1px solid black;
+}
+
+.userTable{
+    border-collapse: collapse;
+}

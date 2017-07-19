@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link type="text/css" rel="stylesheet" href="CSS/index.css">
+    <script type="text/javascript" src="JS/jQuery/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="JS/jQuery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var oRegistForm = $("#registForm");
+
+            var oUsername = $("#username");
+            var oUserInfo = $(".usernameInfo");
+            var isUserName = false;
+
+            var oPassword = $("#password");
+            var oPasswordInfo = $(".passwordInfo");
+            var isPassword = false;
+
+            var oRePassword = $("#rePassword");
+            var oRePasswordInfo = $(".rePasswordInfo");
+            var isRePassword = false;
+
+            var oMobile = $("#mobile");
+            var oMobileInfo = $(".mobileInfo");
+            var isMobile = false;
+
+            var oAddress = $("#address");
+            var oAddressInfo = $(".addressInfo");
+            var isAddress = false;
+
+            var oRegistBtn = $("#registBtn");
+            var oResetBtn = $("#resetBtn");
+
+            var myreg = /^1[3|4|5|7|8][0-9]{9}$/;
+
+            oUsername.blur(function () {
+                console.log(typeof (oUsername.val()));
+                if (oUsername.val() == "") {
+                    oUserInfo.empty();
+                    oUserInfo.text("用户名不能为空");
+                    isUserName = false;
+                } else {
+                    $.ajax({
+                        type: 'POST',
+                        url: 'checkUserName.html',
+                        data: {
+                            username: oUsername.val()
+                        },
+                        beforeSend: function () {
+                            console.log("请求前");
+                        },
+                        success: function (size) {
+//                            console.log(size + "\n" + typeof(size));
+                            var intSize = parseInt(size);
+                            if (intSize == 0) {
+                                oUserInfo.empty();
+                                oUserInfo.text("此用户可以注册");
+                                isUserName = true;
+                            } else {
+                                oUserInfo.empty();
+                                oUserInfo.text("此用户已存在，不能再注册");
+                                isUserName = false;
+                            }
+                        },
+                        complete: function () {
+                            console.log("请求完成");
+                        },
+                        error: function () {
+                            console.log("请求失败");
+                        }
+                    });
+                }
+            });
+
+            oPassword.blur(function () {
+                if (oPassword.val() != "") {
+                    oPasswordInfo.empty();
+                    oPasswordInfo.text("√");
+                    isPassword = true;
+                } else {
+                    oPasswordInfo.empty();
+                    oPasswordInfo.text("密码不能为空");
+                    isPassword = false;
+                }
+            });
+
+            oRePassword.blur(function () {
+                if (oRePassword.val() == "") {
+                    oRePasswordInfo.empty();
+                    oRePasswordInfo.text("请输入确认密码");
+                    isRePassword = false;
+                } else {
+                    if (oRePassword.val() != oPassword.val()) {
+                        oRePasswordInfo.empty();
+                        oRePasswordInfo.text("密码与确认密码不同");
+                        isRePassword = false;
+                    } else {
+                        oRePasswordInfo.empty();
+                        oRePasswordInfo.text("√");
+                        isRePassword = true;
+                    }
+                }
+            });
+
+            oMobile.blur(function () {
+                if (oMobile.val() == "") {
+                    oMobileInfo.empty();
+                    oMobileInfo.text("手机号不能为空");
+                    isMobile = false;
+                } else {
+                    if (!myreg.test(oMobile.val())) {
+                        oMobileInfo.empty();
+                        oMobileInfo.text("手机号格式不正确");
+                        isMobile = false;
+                    } else {
+                        oMobileInfo.empty();
+                        oMobileInfo.text("√");
+                        isMobile = true;
+                    }
+                }
+            });
+
+            oAddress.blur(function () {
+                if (oAddress.val() == "") {
+                    oAddressInfo.empty();
+                    oAddressInfo.text("住址不能为空");
+                    isAddress = false;
+                } else {
+                    oAddressInfo.empty();
+                    oAddressInfo.text("√");
+                    isAddress = true;
+                }
+            });
+
+            oRegistBtn.click(function () {
+                if (isUserName == true && isPassword == true && isRePassword == true && isMobile == true && isAddress == true) {
+                    oRegistForm.submit();
+                }
+            });
+
+            oResetBtn.click(function () {
+                oUserInfo.empty();
+                oPasswordInfo.empty();
+                oRePasswordInfo.empty();
+                oMobileInfo.empty();
+                oAddressInfo.empty();
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var oSearchForm = $("#searchForm");
+
+            var oSearchUserName = $("#searchUserName");
+            var oSearchUserNameInfo = $(".searchUserNamaInfo");
+
+            var oSearchBtn = $("#searchBtn");
+            var oSearchResetBtn = $("#searchResetBtn");
+
+            oSearchBtn.click(function () {
+                if (oSearchUserName.val() == "") {
+                    oSearchUserNameInfo.empty();
+                    oSearchUserNameInfo.text("搜索内容不能为空");
+                } else {
+                    oSearchUserNameInfo.empty();
+                    oSearchUserNameInfo.text("√");
+                    oSearchForm.submit();
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    注册用户：<br>
+    <form id="registForm" action="registUser.html" method="post">
+        <input name="username" id="username" type="text" placeholder="请输入用户名"><div class="usernameInfo"></div><br><br>
+        <input name="password" id="password" type="password" placeholder="请输入密码"><div class="passwordInfo"></div><br><br>
+        <input name="rePassword" id="rePassword" type="password" placeholder="请输入确认密码"><div class="rePasswordInfo"></div><br><br>
+        <input name="mobile" id="mobile" type="tel" placeholder="请输入电话号码"><div class="mobileInfo"></div><br><br>
+        <input name="address" id="address" type="text" placeholder="请输入住址"><div class="addressInfo"></div><br><br>
+        <input id="registBtn" type="button" value="注册">&nbsp;&nbsp;<input id="resetBtn" type="reset" value="重置">
+    </form>
+    <br><br>
+    搜索用户：<br>
+    <form id="searchForm" action="searchUser.html" method="post">
+        <input name="username" id="searchUserName" type="text" placeholder="请输入需要搜索的用户"><div class="searchUserNamaInfo"></div><br><br>
+        <input id="searchBtn" type="button" value="搜索">&nbsp;&nbsp;<input id="searchResetBtn" type="reset" value="重置">
+    </form>
+    <br><br>
+    <a href="index.html">显示所有用户</a>
+    <br><br>
+    <table class="userTable">
+        <tr>
+            <th>用户名</th>
+            <th>手机号</th>
+            <th>住址</th>
+            <th>操作</th>
+        </tr>
+        <#if users?? && (users?size > 0) >
+            <#list users as user>
+                <tr>
+                    <td>${user.username}</td>
+                    <td>${user.mobile?c}</td>
+                    <td>${user.address}</td>
+                    <td>
+                        <a href="updateInfo.html?id=${user.id}">修改信息</a>
+                        <a href="updatePassword.html?id=${user.id}">修改密码</a>
+                        <a href="deleteUser.html?id=${user.id}">删除</a>
+                    </td>
+                </tr>
+            </#list>
+        <#else>
+            <tr>
+                <td colspan="4">没发现什么东西</td>
+            </tr>
+        </#if>
+    </table>
+    <br><br><br><br>
+    <ul style="list-style: none;">
+        <#if users?? && (users?size > 0) >
+            <#list users as user>
+                <li>${user.username} &nbsp; ${user.mobile?c} &nbsp; ${user.address}</li>
+            </#list>
+            <#else>
+                <li>没发现什么东西</li>
+        </#if>
+    </ul>
+</body>
+</html>

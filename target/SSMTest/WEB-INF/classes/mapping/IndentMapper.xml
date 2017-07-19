@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ssm.dao.IndentMapper" >
+  <resultMap id="BaseResultMap" type="com.ssm.model.Indent" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="buyerID" property="buyerid" jdbcType="INTEGER" />
+    <result column="bookID" property="bookid" jdbcType="INTEGER" />
+    <result column="bargainTime" property="bargaintime" jdbcType="TIMESTAMP" />
+    <result column="buyerAddress" property="buyeraddress" jdbcType="VARCHAR" />
+    <result column="bookName" property="bookname" jdbcType="VARCHAR" />
+    <result column="bookCover" property="bookcover" jdbcType="VARCHAR" />
+    <result column="bookPrice" property="bookprice" jdbcType="REAL" />
+    <result column="bookPublisher" property="bookpublisher" jdbcType="VARCHAR" />
+    <result column="commentState" property="commentstate" jdbcType="INTEGER" />
+    <result column="buyerMobile" property="buyermobile" jdbcType="BIGINT" />
+    <result column="buyerName" property="buyername" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, buyerID, bookID, bargainTime, buyerAddress, bookName, bookCover, bookPrice, bookPublisher, 
+    commentState, buyerMobile, buyerName
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from indent
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from indent
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.ssm.model.Indent" >
+    insert into indent (id, buyerID, bookID, 
+      bargainTime, buyerAddress, bookName, 
+      bookCover, bookPrice, bookPublisher, 
+      commentState, buyerMobile, buyerName
+      )
+    values (#{id,jdbcType=INTEGER}, #{buyerid,jdbcType=INTEGER}, #{bookid,jdbcType=INTEGER}, 
+      #{bargaintime,jdbcType=TIMESTAMP}, #{buyeraddress,jdbcType=VARCHAR}, #{bookname,jdbcType=VARCHAR}, 
+      #{bookcover,jdbcType=VARCHAR}, #{bookprice,jdbcType=REAL}, #{bookpublisher,jdbcType=VARCHAR}, 
+      #{commentstate,jdbcType=INTEGER}, #{buyermobile,jdbcType=BIGINT}, #{buyername,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ssm.model.Indent" >
+    insert into indent
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="buyerid != null" >
+        buyerID,
+      </if>
+      <if test="bookid != null" >
+        bookID,
+      </if>
+      <if test="bargaintime != null" >
+        bargainTime,
+      </if>
+      <if test="buyeraddress != null" >
+        buyerAddress,
+      </if>
+      <if test="bookname != null" >
+        bookName,
+      </if>
+      <if test="bookcover != null" >
+        bookCover,
+      </if>
+      <if test="bookprice != null" >
+        bookPrice,
+      </if>
+      <if test="bookpublisher != null" >
+        bookPublisher,
+      </if>
+      <if test="commentstate != null" >
+        commentState,
+      </if>
+      <if test="buyermobile != null" >
+        buyerMobile,
+      </if>
+      <if test="buyername != null" >
+        buyerName,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="buyerid != null" >
+        #{buyerid,jdbcType=INTEGER},
+      </if>
+      <if test="bookid != null" >
+        #{bookid,jdbcType=INTEGER},
+      </if>
+      <if test="bargaintime != null" >
+        #{bargaintime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="buyeraddress != null" >
+        #{buyeraddress,jdbcType=VARCHAR},
+      </if>
+      <if test="bookname != null" >
+        #{bookname,jdbcType=VARCHAR},
+      </if>
+      <if test="bookcover != null" >
+        #{bookcover,jdbcType=VARCHAR},
+      </if>
+      <if test="bookprice != null" >
+        #{bookprice,jdbcType=REAL},
+      </if>
+      <if test="bookpublisher != null" >
+        #{bookpublisher,jdbcType=VARCHAR},
+      </if>
+      <if test="commentstate != null" >
+        #{commentstate,jdbcType=INTEGER},
+      </if>
+      <if test="buyermobile != null" >
+        #{buyermobile,jdbcType=BIGINT},
+      </if>
+      <if test="buyername != null" >
+        #{buyername,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ssm.model.Indent" >
+    update indent
+    <set >
+      <if test="buyerid != null" >
+        buyerID = #{buyerid,jdbcType=INTEGER},
+      </if>
+      <if test="bookid != null" >
+        bookID = #{bookid,jdbcType=INTEGER},
+      </if>
+      <if test="bargaintime != null" >
+        bargainTime = #{bargaintime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="buyeraddress != null" >
+        buyerAddress = #{buyeraddress,jdbcType=VARCHAR},
+      </if>
+      <if test="bookname != null" >
+        bookName = #{bookname,jdbcType=VARCHAR},
+      </if>
+      <if test="bookcover != null" >
+        bookCover = #{bookcover,jdbcType=VARCHAR},
+      </if>
+      <if test="bookprice != null" >
+        bookPrice = #{bookprice,jdbcType=REAL},
+      </if>
+      <if test="bookpublisher != null" >
+        bookPublisher = #{bookpublisher,jdbcType=VARCHAR},
+      </if>
+      <if test="commentstate != null" >
+        commentState = #{commentstate,jdbcType=INTEGER},
+      </if>
+      <if test="buyermobile != null" >
+        buyerMobile = #{buyermobile,jdbcType=BIGINT},
+      </if>
+      <if test="buyername != null" >
+        buyerName = #{buyername,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ssm.model.Indent" >
+    update indent
+    set buyerID = #{buyerid,jdbcType=INTEGER},
+      bookID = #{bookid,jdbcType=INTEGER},
+      bargainTime = #{bargaintime,jdbcType=TIMESTAMP},
+      buyerAddress = #{buyeraddress,jdbcType=VARCHAR},
+      bookName = #{bookname,jdbcType=VARCHAR},
+      bookCover = #{bookcover,jdbcType=VARCHAR},
+      bookPrice = #{bookprice,jdbcType=REAL},
+      bookPublisher = #{bookpublisher,jdbcType=VARCHAR},
+      commentState = #{commentstate,jdbcType=INTEGER},
+      buyerMobile = #{buyermobile,jdbcType=BIGINT},
+      buyerName = #{buyername,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
