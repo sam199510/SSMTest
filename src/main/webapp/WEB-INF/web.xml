@@ -49,7 +49,7 @@
     <url-pattern>*.json</url-pattern>
   </filter-mapping>
 
-  <!-- spring监听器 -->
+  <!-- spring监听器,Spring应用上下文配置 -->
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
