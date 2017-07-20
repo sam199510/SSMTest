@@ -15,7 +15,8 @@
     <!-- 自动扫描  @Controller-->
     <context:component-scan base-package="com.ssm.controller"/>
 
-    <mvc:annotation-driven/>
+    <!--此驱动支持是为了能够更好的适配项目而使用的，若要在浏览器中显示JSON，则该配置需要注释掉-->
+    <!--<mvc:annotation-driven/>-->
 
     <!--避免IE执行AJAX时，返回JSON出现下载文件 -->
     <bean id="mappingJacksonHttpMessageConverter"

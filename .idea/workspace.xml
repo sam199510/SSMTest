@@ -7,13 +7,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="627a9bc0-5c48-456a-a3a0-dd34853af90e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ssm/model/User.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/WEB-INF/classes/com/ssm/model/User.class" afterPath="$PROJECT_DIR$/target/SSMTest/WEB-INF/classes/com/ssm/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_444444_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_444444_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_555555_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_555555_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_777620_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_777620_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_777777_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_777777_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_cc0000_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_cc0000_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_ffffff_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_444444_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_444444_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_555555_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_555555_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_777620_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_777620_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_777777_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_777777_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_cc0000_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_cc0000_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_ffffff_256x240.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySQL/bookStoreTest.sql" afterPath="$PROJECT_DIR$/MySQL/bookStoreTest.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSMTest.iml" afterPath="$PROJECT_DIR$/SSMTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSMTest.log" afterPath="$PROJECT_DIR$/SSMTest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CollectionMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CollectionMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/IndentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/IndentMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/Collection.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/Collection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/Comment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/Indent.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/Indent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/BookMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/BookMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/CollectionMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/CollectionMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/CommentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/CommentMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/IndentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/IndentMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.structure.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.structure.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.structure.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.theme.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/editUserInfo.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/editUserInfo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/index.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/updatePassword.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/updatePassword.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-1.7.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-1.7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-1.7.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-1.7.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-3.2.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-3.2.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery_UI/jquery-ui.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery_UI/jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery_UI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery_UI/jquery-ui.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/WEB-INF/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/SSMTest/WEB-INF/classes/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontend/editUserInfo.html" afterPath="$PROJECT_DIR$/src/main/webapp/frontend/editUserInfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontend/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/frontend/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontend/updatePassword.html" afterPath="$PROJECT_DIR$/src/main/webapp/frontend/updatePassword.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.min.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.structure.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.structure.min.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.structure.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.theme.min.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/editUserInfo.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/editUserInfo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/index.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/updatePassword.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/updatePassword.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-1.7.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-1.7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-1.7.min.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-1.7.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-3.2.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-3.2.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery_UI/jquery-ui.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery_UI/jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery_UI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery_UI/jquery-ui.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/SSMTest/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/frontend/editUserInfo.html" afterPath="$PROJECT_DIR$/target/SSMTest/frontend/editUserInfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/frontend/index.html" afterPath="$PROJECT_DIR$/target/SSMTest/frontend/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/frontend/updatePassword.html" afterPath="$PROJECT_DIR$/target/SSMTest/frontend/updatePassword.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/index.jsp" afterPath="$PROJECT_DIR$/target/SSMTest/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,78 +106,18 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
+            <state relative-caret-position="157">
               <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="240" column="14" lean-forward="false" selection-start-line="240" selection-start-column="14" selection-end-line="240" selection-end-column="14" />
+            <state relative-caret-position="375">
+              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -129,6 +142,7 @@
       <find>jsr250-api</find>
       <find>slf</find>
       <find>log4j</find>
+      <find>jackson-mapper-asl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,18 +164,18 @@
         <option value="$PROJECT_DIR$/src/main/webapp/CSS/updatePassword.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/frontend/updatePassword.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/CSS/index.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/frontend/index.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
       </list>
     </option>
   </component>
@@ -194,54 +208,34 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="SSMTest Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="SSMTest Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="SSMTest Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mybatis-generator" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
-      </PATH>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SSMTest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SSMTest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SSMTest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="283" />
+    <option name="x" value="36" />
     <option name="y" value="22" />
-    <option name="width" value="1406" />
+    <option name="width" value="1404" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -262,7 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,71 +350,14 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapping" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SSMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-3.2.1.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="SSMTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSMTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,6 +383,29 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.SSMTestRunOnTomcat">
+    <configuration name="SSMTest [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration name="SSMTestRunOnJetty" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -958,10 +917,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Maven.SSMTestRunOnJetty" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.SSMTestRunOnTomcat" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.SSMTest [mybatis-generator:generate]" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Maven.SSMTest [mybatis-generator:generate]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -987,12 +952,15 @@
       <workItem from="1500423251734" duration="4000" />
       <workItem from="1500425660103" duration="11689000" />
       <workItem from="1500442506221" duration="7287000" />
-      <workItem from="1500462094749" duration="4077000" />
+      <workItem from="1500462094749" duration="8519000" />
+      <workItem from="1500472345057" duration="232000" />
+      <workItem from="1500474714801" duration="1086000" />
+      <workItem from="1500477366482" duration="465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43209000" />
+    <option name="totallyTimeSpent" value="49434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1004,12 +972,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="22" width="1406" height="878" extended-state="6" />
+    <frame x="37" y="22" width="1403" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3886121" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3882353" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1020,16 +989,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26923078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28908187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36352357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22119488" sideWeight="0.49355432" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22024234" sideWeight="0.49355432" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1061,11 +1030,121 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#1001#1002#0" expanded="false" />
+            <marker date="1500413706000" expanded="false" signature="218:229" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="239:245" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="280:291" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="304:310" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="343:354" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="370:376" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="422:433" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="491:497" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="530:541" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="557:563" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="609:620" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="678:684" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="713:724" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="738:744" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="784:795" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="816:822" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="854:865" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="880:886" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="930:941" ph=" { " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="89" lean-forward="true" selection-start-line="68" selection-start-column="89" selection-end-line="68" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <marker date="1500413706000" expanded="true" signature="2922:3170" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="2922:3868" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="2928:3159" ph="update user " />
+            <marker date="1500413706000" expanded="true" signature="3227:3262" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3233:3251" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="3352:3442" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3358:3431" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="3537:3669" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3543:3658" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="3764:3857" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3770:3846" ph="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1500413706000" expanded="true" signature="540:579" ph="/**...*/" />
+            <marker date="1500413706000" expanded="true" signature="588:620" ph="@{...}" />
+            <marker date="1500413706000" expanded="false" signature="777:788" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="819:825" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="942:1242" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="1264:1348" ph="@{...}" />
+            <marker date="1500413706000" expanded="true" signature="1384:1503" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="1528:1615" ph="@{...}" />
+            <marker date="1500413706000" expanded="false" signature="1661:1671" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="1726:1732" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="1857:1998" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2123:2241" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2382:2655" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2783:2924" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3073:3348" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3369:3459" ph="@{...}" />
+            <marker date="1500413706000" expanded="true" signature="3523:3731" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3882:4100" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="4224:4595" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frontend/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +1152,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="114" column="31" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1500413706000" expanded="true" signature="540:579" ph="/**...*/" />
+            <marker date="1500413706000" expanded="true" signature="588:620" ph="@{...}" />
+            <marker date="1500413706000" expanded="false" signature="777:788" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="819:825" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="942:1242" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="1264:1348" ph="@{...}" />
+            <marker date="1500413706000" expanded="true" signature="1384:1503" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="1528:1615" ph="@{...}" />
+            <marker date="1500413706000" expanded="false" signature="1661:1671" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="1726:1732" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="1857:1998" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2123:2241" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2382:2655" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2783:2924" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3073:3348" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3369:3459" ph="@{...}" />
+            <marker date="1500413706000" expanded="true" signature="3523:3731" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3882:4100" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="4224:4595" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,7 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="128" column="46" lean-forward="false" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,7 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +1208,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="96" column="1" lean-forward="false" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1500413706000" expanded="true" signature="540:579" ph="/**...*/" />
+            <marker date="1500413706000" expanded="true" signature="588:620" ph="@{...}" />
+            <marker date="1500413706000" expanded="false" signature="777:788" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="819:825" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="942:1242" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="1264:1348" ph="@{...}" />
+            <marker date="1500413706000" expanded="true" signature="1384:1503" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="1528:1615" ph="@{...}" />
+            <marker date="1500413706000" expanded="false" signature="1661:1671" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="1726:1732" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="1857:1998" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2123:2241" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2382:2655" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2783:2924" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3073:3348" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3369:3459" ph="@{...}" />
+            <marker date="1500413706000" expanded="true" signature="3523:3731" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3882:4100" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="4224:4595" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,7 +1244,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1136,15 +1255,17 @@
         <state relative-caret-position="1515">
           <caret line="101" column="11" lean-forward="false" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
           <folding>
-            <marker date="1500449211000" expanded="true" signature="790:890" ph="select from user" />
-            <marker date="1500449211000" expanded="true" signature="977:1031" ph="delete from " />
-            <marker date="1500449211000" expanded="true" signature="1107:1331" ph="insert into user... " />
-            <marker date="1500449211000" expanded="true" signature="2391:2840" ph="update user " />
-            <marker date="1500449211000" expanded="true" signature="2928:3159" ph="update user " />
-            <marker date="1500449211000" expanded="true" signature="3233:3251" ph="SELECT * FRO... user" />
-            <marker date="1500449211000" expanded="true" signature="3358:3431" ph="SELECT * FRO... user" />
-            <marker date="1500449211000" expanded="true" signature="3543:3658" ph="SELECT * FRO... user" />
-            <marker date="1500449211000" expanded="true" signature="3770:3846" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="2922:3170" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="2922:3868" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="2928:3159" ph="update user " />
+            <marker date="1500413706000" expanded="true" signature="3227:3262" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3233:3251" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="3352:3442" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3358:3431" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="3537:3669" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3543:3658" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="3764:3857" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3770:3846" ph="SELECT * FRO... user" />
           </folding>
         </state>
       </provider>
@@ -1186,13 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/CommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/BookMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1204,13 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1242,47 +1349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="113" column="53" lean-forward="true" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
-          <folding>
-            <marker date="1500449211000" expanded="true" signature="790:890" ph="select from user" />
-            <marker date="1500449211000" expanded="true" signature="977:1031" ph="delete from " />
-            <marker date="1500449211000" expanded="true" signature="1107:1331" ph="insert into user... " />
-            <marker date="1500449211000" expanded="true" signature="2391:2840" ph="update user " />
-            <marker date="1500449211000" expanded="true" signature="2928:3159" ph="update user " />
-            <marker date="1500449211000" expanded="true" signature="3233:3251" ph="SELECT * FRO... user" />
-            <marker date="1500449211000" expanded="true" signature="3358:3431" ph="SELECT * FRO... user" />
-            <marker date="1500449211000" expanded="true" signature="3543:3658" ph="SELECT * FRO... user" />
-            <marker date="1500449211000" expanded="true" signature="3770:3846" ph="SELECT * FRO... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding>
-            <element signature="e#1400#1401#0" expanded="false" />
-            <element signature="e#1465#1466#0" expanded="false" />
-            <element signature="e#1547#1548#0" expanded="false" />
-            <element signature="e#1608#1609#0" expanded="false" />
-            <element signature="e#1690#1691#0" expanded="false" />
-            <element signature="e#1751#1752#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSMTest.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-318">
@@ -1290,19 +1356,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="114" column="31" lean-forward="false" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frontend/updatePassword.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="128" column="46" lean-forward="false" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,15 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2033">
           <caret line="228" column="9" lean-forward="false" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="240" column="14" lean-forward="false" selection-start-line="240" selection-start-column="14" selection-end-line="240" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,30 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1362,14 +1386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/dao/CollectionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1378,24 +1394,177 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/model/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/model/Indent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/CollectionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="71" lean-forward="true" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        <state relative-caret-position="135">
+          <caret line="9" column="73" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
-            <marker date="1500343398000" expanded="true" signature="900:1006" ph="select from collection" />
-            <marker date="1500343398000" expanded="true" signature="1093:1153" ph="delete from " />
-            <marker date="1500343398000" expanded="true" signature="1235:1529" ph="insert into collection... " />
-            <marker date="1500343398000" expanded="true" signature="2781:3349" ph="update colle... " />
-            <marker date="1500343398000" expanded="true" signature="3443:3737" ph="update colle... " />
+            <marker date="1500413706000" expanded="true" signature="540:579" ph="/**...*/" />
+            <marker date="1500413706000" expanded="true" signature="588:620" ph="@{...}" />
+            <marker date="1500413706000" expanded="false" signature="777:788" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="819:825" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="942:1242" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="1264:1348" ph="@{...}" />
+            <marker date="1500413706000" expanded="true" signature="1384:1503" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="1528:1615" ph="@{...}" />
+            <marker date="1500413706000" expanded="false" signature="1661:1671" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="1726:1732" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="1857:1998" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2123:2241" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2382:2655" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="2783:2924" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3073:3348" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3369:3459" ph="@{...}" />
+            <marker date="1500413706000" expanded="true" signature="3523:3731" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="3882:4100" ph="{...}" />
+            <marker date="1500413706000" expanded="true" signature="4224:4595" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        <state relative-caret-position="465">
+          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#1001#1002#0" expanded="false" />
+            <marker date="1500413706000" expanded="false" signature="218:229" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="239:245" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="280:291" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="304:310" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="343:354" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="370:376" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="422:433" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="491:497" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="530:541" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="557:563" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="609:620" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="678:684" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="713:724" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="738:744" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="784:795" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="816:822" ph=" }" />
+            <marker date="1500413706000" expanded="false" signature="854:865" ph=" { " />
+            <marker date="1500413706000" expanded="false" signature="880:886" ph=" }" />
+            <marker date="1500413706000" expanded="true" signature="930:941" ph=" { " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <marker date="1500413706000" expanded="true" signature="2922:3170" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="2922:3868" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="2928:3159" ph="update user " />
+            <marker date="1500413706000" expanded="true" signature="3227:3262" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3233:3251" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="3352:3442" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3358:3431" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="3537:3669" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3543:3658" ph="SELECT * FRO... user" />
+            <marker date="1500413706000" expanded="true" signature="3764:3857" ph="..." />
+            <marker date="1500413706000" expanded="true" signature="3770:3846" ph="SELECT * FRO... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1214">
+          <caret line="225" column="16" lean-forward="false" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding />
         </state>
       </provider>
