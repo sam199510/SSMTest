@@ -129,6 +129,7 @@ public class SSMController {
         return "redirect:index.html";
     }
 
+    //模糊搜素用户的方法
     @RequestMapping(value = "searchUser", method = RequestMethod.POST)
     public ModelAndView searchUser(String username){
         System.out.println("搜素用户方法北调用");

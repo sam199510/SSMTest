@@ -7,87 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="627a9bc0-5c48-456a-a3a0-dd34853af90e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_444444_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_444444_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_555555_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_555555_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_777620_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_777620_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_777777_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_777777_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_cc0000_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_cc0000_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/images/ui-icons_ffffff_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_444444_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_444444_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_555555_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_555555_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_777620_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_777620_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_777777_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_777777_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_cc0000_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_cc0000_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/images/ui-icons_ffffff_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySQL/bookStoreTest.sql" afterPath="$PROJECT_DIR$/MySQL/bookStoreTest.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSMTest.iml" afterPath="$PROJECT_DIR$/SSMTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SSMTest.log" afterPath="$PROJECT_DIR$/SSMTest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/BookMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CollectionMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CollectionMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/CommentMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/IndentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/IndentMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/Collection.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/Collection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/Comment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/Indent.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/Indent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/BookMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/CollectionMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/CollectionMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/CommentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/CommentMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/IndentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/IndentMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.structure.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.structure.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.structure.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.theme.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/CSS_jQuery_UI/jquery-ui.theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/editUserInfo.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/editUserInfo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/index.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CSS/updatePassword.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/updatePassword.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-1.7.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-1.7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-1.7.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-1.7.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-3.2.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery/jquery-3.2.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery_UI/jquery-ui.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery_UI/jquery-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/JS/jQuery_UI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/JS/jQuery_UI/jquery-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontend/editUserInfo.html" afterPath="$PROJECT_DIR$/src/main/webapp/frontend/editUserInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontend/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/frontend/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frontend/updatePassword.html" afterPath="$PROJECT_DIR$/src/main/webapp/frontend/updatePassword.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.min.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.structure.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.structure.min.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.structure.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.theme.min.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/CSS_jQuery_UI/jquery-ui.theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/editUserInfo.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/editUserInfo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/index.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/CSS/updatePassword.css" afterPath="$PROJECT_DIR$/target/SSMTest/CSS/updatePassword.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-1.7.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-1.7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-1.7.min.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-1.7.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-3.2.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery/jquery-3.2.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery_UI/jquery-ui.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery_UI/jquery-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/JS/jQuery_UI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/target/SSMTest/JS/jQuery_UI/jquery-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/SSMTest/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/frontend/editUserInfo.html" afterPath="$PROJECT_DIR$/target/SSMTest/frontend/editUserInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/frontend/index.html" afterPath="$PROJECT_DIR$/target/SSMTest/frontend/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/frontend/updatePassword.html" afterPath="$PROJECT_DIR$/target/SSMTest/frontend/updatePassword.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SSMTest/index.jsp" afterPath="$PROJECT_DIR$/target/SSMTest/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,18 +26,28 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="210">
               <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SSMController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="131" column="15" lean-forward="false" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -172,10 +102,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java" />
       </list>
     </option>
   </component>
@@ -256,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,9 +286,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -956,11 +886,12 @@
       <workItem from="1500472345057" duration="232000" />
       <workItem from="1500474714801" duration="1086000" />
       <workItem from="1500477366482" duration="465000" />
+      <workItem from="1500530068063" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49434000" />
+    <option name="totallyTimeSpent" value="49452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,7 +903,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="22" width="1403" height="878" extended-state="6" />
+    <frame x="36" y="22" width="1404" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -989,16 +920,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26923078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36352357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36352357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22024234" sideWeight="0.49355432" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22008547" sideWeight="0.49355432" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1009,6 +939,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26923078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1117,27 +1048,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500413706000" expanded="true" signature="540:579" ph="/**...*/" />
-            <marker date="1500413706000" expanded="true" signature="588:620" ph="@{...}" />
-            <marker date="1500413706000" expanded="false" signature="777:788" ph=" { " />
-            <marker date="1500413706000" expanded="false" signature="819:825" ph=" }" />
-            <marker date="1500413706000" expanded="true" signature="942:1242" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="1264:1348" ph="@{...}" />
-            <marker date="1500413706000" expanded="true" signature="1384:1503" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="1528:1615" ph="@{...}" />
-            <marker date="1500413706000" expanded="false" signature="1661:1671" ph=" { " />
-            <marker date="1500413706000" expanded="false" signature="1726:1732" ph=" }" />
-            <marker date="1500413706000" expanded="true" signature="1857:1998" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2123:2241" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2382:2655" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2783:2924" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3073:3348" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3369:3459" ph="@{...}" />
-            <marker date="1500413706000" expanded="true" signature="3523:3731" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3882:4100" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="4224:4595" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,27 +1063,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="114" column="31" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
-          <folding>
-            <marker date="1500413706000" expanded="true" signature="540:579" ph="/**...*/" />
-            <marker date="1500413706000" expanded="true" signature="588:620" ph="@{...}" />
-            <marker date="1500413706000" expanded="false" signature="777:788" ph=" { " />
-            <marker date="1500413706000" expanded="false" signature="819:825" ph=" }" />
-            <marker date="1500413706000" expanded="true" signature="942:1242" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="1264:1348" ph="@{...}" />
-            <marker date="1500413706000" expanded="true" signature="1384:1503" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="1528:1615" ph="@{...}" />
-            <marker date="1500413706000" expanded="false" signature="1661:1671" ph=" { " />
-            <marker date="1500413706000" expanded="false" signature="1726:1732" ph=" }" />
-            <marker date="1500413706000" expanded="true" signature="1857:1998" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2123:2241" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2382:2655" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2783:2924" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3073:3348" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3369:3459" ph="@{...}" />
-            <marker date="1500413706000" expanded="true" signature="3523:3731" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3882:4100" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="4224:4595" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,27 +1099,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="96" column="1" lean-forward="false" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
-          <folding>
-            <marker date="1500413706000" expanded="true" signature="540:579" ph="/**...*/" />
-            <marker date="1500413706000" expanded="true" signature="588:620" ph="@{...}" />
-            <marker date="1500413706000" expanded="false" signature="777:788" ph=" { " />
-            <marker date="1500413706000" expanded="false" signature="819:825" ph=" }" />
-            <marker date="1500413706000" expanded="true" signature="942:1242" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="1264:1348" ph="@{...}" />
-            <marker date="1500413706000" expanded="true" signature="1384:1503" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="1528:1615" ph="@{...}" />
-            <marker date="1500413706000" expanded="false" signature="1661:1671" ph=" { " />
-            <marker date="1500413706000" expanded="false" signature="1726:1732" ph=" }" />
-            <marker date="1500413706000" expanded="true" signature="1857:1998" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2123:2241" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2382:2655" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2783:2924" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3073:3348" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3369:3459" ph="@{...}" />
-            <marker date="1500413706000" expanded="true" signature="3523:3731" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3882:4100" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="4224:4595" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,34 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <marker date="1500413706000" expanded="true" signature="540:579" ph="/**...*/" />
-            <marker date="1500413706000" expanded="true" signature="588:620" ph="@{...}" />
-            <marker date="1500413706000" expanded="false" signature="777:788" ph=" { " />
-            <marker date="1500413706000" expanded="false" signature="819:825" ph=" }" />
-            <marker date="1500413706000" expanded="true" signature="942:1242" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="1264:1348" ph="@{...}" />
-            <marker date="1500413706000" expanded="true" signature="1384:1503" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="1528:1615" ph="@{...}" />
-            <marker date="1500413706000" expanded="false" signature="1661:1671" ph=" { " />
-            <marker date="1500413706000" expanded="false" signature="1726:1732" ph=" }" />
-            <marker date="1500413706000" expanded="true" signature="1857:1998" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2123:2241" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2382:2655" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="2783:2924" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3073:3348" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3369:3459" ph="@{...}" />
-            <marker date="1500413706000" expanded="true" signature="3523:3731" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="3882:4100" ph="{...}" />
-            <marker date="1500413706000" expanded="true" signature="4224:4595" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -1503,7 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,7 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1555,7 +1396,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="210">
           <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
           <folding />
         </state>
@@ -1565,6 +1406,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/SSMController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="131" column="15" lean-forward="false" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
           <folding />
         </state>
       </provider>
