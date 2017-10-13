@@ -1,0 +1,629 @@
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:30:32 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:30:32 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 745 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:30:33 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 290 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:32:11 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:32:11 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 753 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:32:12 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 273 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:32:40 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:32:40 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 752 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:32:41 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 342 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:36:00 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:36:00 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 750 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:36:00 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 307 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:36:46 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:36:46 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 784 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:36:47 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 309 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:40:23 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:40:23 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 788 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:40:24 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 321 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:46:11 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:46:11 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 782 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:46:12 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 304 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:50:31 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:50:31 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 747 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:50:32 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 284 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:51:42 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:51:42 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 743 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:51:43 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 289 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:54:45 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:54:45 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 716 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:54:46 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 285 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:55:45 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:55:45 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 652 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:55:46 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 279 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:56:25 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:56:25 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 734 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:56:26 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 294 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 16:58:38 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 16:58:38 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 738 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 16:58:39 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 309 ms
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing Root WebApplicationContext: startup date [Thu Oct 12 17:21:03 CST 2017]; root of context hierarchy
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [applicationContext.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.ui.freemarker.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [Root WebApplicationContext: startup date [Thu Oct 12 17:21:03 CST 2017]; root of context hierarchy] and template loader path [/src/main/webapp/frontend/]
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 700 ms
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization started
+INFO main org.springframework.web.context.support.XmlWebApplicationContext -Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Thu Oct 12 17:21:04 CST 2017]; parent: Root WebApplicationContext
+INFO main org.springframework.beans.factory.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [spring-mvc.xml]
+INFO main org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO main org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/index/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/showAllUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkUserName/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/registUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/deleteUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updateInfo/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/updatePassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/checkOldPassword/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/searchUser/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/startActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener.*] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping -Mapped URL path [/stopActivityListener/] onto handler 'SSMController'
+INFO main org.springframework.web.servlet.DispatcherServlet -FrameworkServlet 'SpringMVC': initialization completed in 342 ms

@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -21,6 +24,9 @@ import java.util.List;
 @Controller
 @RequestMapping("/")
 public class SSMController {
+
+    TimeTest t;
+
 
     //将用户业务层类自动注入
     @Autowired
@@ -141,4 +147,103 @@ public class SSMController {
         modelAndView.addObject("users",users);
         return modelAndView;
     }
+
+    @RequestMapping(value = "startActivityListener", method = RequestMethod.GET)
+    public String startActivityListener() {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String startT = "2017-10-12 16:33:00";
+        String finalT = "2017-10-12 16:34:00";
+
+        Date startTime = null;
+        Date finalTime = null;
+        try {
+            startTime = sdf.parse(startT);
+            finalTime = sdf.parse(finalT);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        t = new TimeTest();
+        t.setStartTime(startTime);
+        t.setFinalTime(finalTime);
+        t.setFlag(true);
+        t.start();
+
+
+        return "redirect:index.html";
+    }
+
+    @RequestMapping(value = "stopActivityListener", method = RequestMethod.GET)
+    public String stopActivityListener() {
+        t.setFlag(false);
+        return "redirect:index.html";
+    }
+
+    class TimeTest extends Thread implements Runnable {
+        boolean flag;
+        int n;
+        Date startTime;
+        Date finalTime;
+
+        public boolean isFlag() {
+            return flag;
+        }
+
+        public void setFlag(boolean flag) {
+            this.flag = flag;
+        }
+
+        public int getN() {
+            return n;
+        }
+
+        public void setN(int n) {
+            this.n = n;
+        }
+
+        public void stopThread() {
+            flag = false;
+        }
+
+        public Date getStartTime() {
+            return startTime;
+        }
+
+        public void setStartTime(Date startTime) {
+            this.startTime = startTime;
+        }
+
+        public Date getFinalTime() {
+            return finalTime;
+        }
+
+        public void setFinalTime(Date finalTime) {
+            this.finalTime = finalTime;
+        }
+
+        @Override
+        public void run() {
+            while (flag) {
+                System.out.println("t1" + new Date());
+
+                Date now = new Date();
+                if ((now.after(startTime) || now.equals(startTime)) &&
+                        (now.equals(finalTime) || now.before(finalTime))) {
+                    n = 1;
+                    System.out.println(JSON.toJSONString(userService.getAllUser()));
+                } else {
+                    n = 0;
+                    System.out.println(JSON.toJSONString(userService.getAllUser()));
+                }
+                System.out.println(n);
+                try {
+                    Thread.sleep(5000);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 }
+
+
